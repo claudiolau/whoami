@@ -4,21 +4,21 @@ export const Projects = () => {
             <div id="projects" className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row">
                     <a href="https://github.com/claudiolau/aldebaran">
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card  bg-base-100 shadow-xl lg:200px">
                             <div className="card-body p-6">
-                                <h2 className="card-title">aldebran!</h2>
+                                <h2 className="card-title">aldebaran!</h2>
                                 <p>Ui library playground for components.</p>
                             </div>
                             <figure>
                                 <img
                                     src="https://placeimg.com/400/225/tech"
-                                    alt="Shoes"
+                                    alt="aldebaran"
                                 />
                             </figure>
                         </div>
                     </a>
                     <a href="https://github.com/claudiolau/MrPeace">
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card  bg-base-100 shadow-xl lg:200px">
                             <div className="card-body p-6">
                                 <h2 className="card-title">MrPeace!</h2>
                                 <p>Perfect cli to sit tight and peace.</p>
@@ -26,7 +26,7 @@ export const Projects = () => {
                             <figure>
                                 <img
                                     src="https://placeimg.com/400/225/arch"
-                                    alt="Shoes"
+                                    alt="MrPeace"
                                 />
                             </figure>
                         </div>

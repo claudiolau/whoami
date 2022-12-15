@@ -3,7 +3,7 @@ export const About = () => {
         <>
             <div id="about" className="hero min-h-screen bg-base-200">
                 <div className="hero-content ">
-                    <div className="max-w-md">
+                    <div className="m-14">
                         <h1 className="text-5xl font-bold py-24">About me</h1>
                         <ol className="relative border-l border-gray-200 dark:border-gray-700">
                             <li className="mb-10 ml-6">
@@ -33,7 +33,8 @@ export const About = () => {
                                 </p>
                                 <p className=" text-base font-normal text-gray-500 dark:text-gray-400 p-4">
                                     Built suite of enterprise Saas using
-                                    Ag-Grid, Carbon IBM and Next.js to empower
+                                    Ag-Grid, Carbon IBM, FireStore, PostgreSQL,
+                                    Google Cloud Platform and Next.js to empower
                                     merchants with the insights they need to
                                     make the optimal pricing and inventory
                                     decisions. Wore multiple hats from inception
@@ -47,23 +48,10 @@ export const About = () => {
                                     React
                                 </span>
                                 <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-                                    FireStore
-                                </span>
-
-                                <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
                                     GCP
                                 </span>
                                 <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
                                     Bash
-                                </span>
-                                <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-                                    CI/CD
-                                </span>
-                                <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-                                    CSS
-                                </span>
-                                <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-                                    Docker
                                 </span>
                             </li>
                             <li className="mb-10 ml-6">
@@ -114,9 +102,6 @@ export const About = () => {
                                 <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
                                     Databricks
                                 </span>
-                                <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-                                    Docker
-                                </span>
                             </li>
                             <li className="mb-10 ml-6">
                                 <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -163,9 +148,6 @@ export const About = () => {
                                 <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
                                     AWS
                                 </span>
-                                <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-                                    Docker
-                                </span>
                             </li>
                             <li className="ml-6">
                                 <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -208,7 +190,10 @@ export const About = () => {
                             </li>
                         </ol>
                         <div className="py-24">
-                            <a className="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+                            <a
+                                href="https://github.com/claudiolau/whoami/raw/feat/profile/public/Claudio_Lau.pdf"
+                                className="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                            >
                                 <svg
                                     className="mr-2 w-4 h-4"
                                     fill="currentColor"
@@ -221,6 +206,7 @@ export const About = () => {
                                         clip-rule="evenodd"
                                     ></path>
                                 </svg>
+                                Download my Resume
                             </a>
                         </div>
                     </div>

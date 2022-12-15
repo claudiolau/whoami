@@ -18,7 +18,7 @@ export const Footer = () => {
                 </svg>
                 <p className="font-bold">
                     @ 2022 Claudio Lau Ltd. <br />
-                    Providing reliable tech since 2021
+                    Providing reliable tech since 2019
                 </p>
                 <p>Copyright © 2022 - All right reserved</p>
             </div>

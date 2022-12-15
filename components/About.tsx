@@ -3,7 +3,7 @@ export const About = () => {
         <>
             <div id="about" className="hero min-h-screen bg-base-200">
                 <div className="hero-content ">
-                    <div className="m-14">
+                    <div className="">
                         <h1 className="text-5xl font-bold py-24">About me</h1>
                         <ol className="relative border-l border-gray-200 dark:border-gray-700">
                             <li className="mb-10 ml-6">

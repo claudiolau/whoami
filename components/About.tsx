@@ -168,7 +168,7 @@ export const About = () => {
                                 <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                                     University of Toronto
                                     <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-                                        September 2013- June 2017
+                                        September 2014- June 2017
                                     </span>
                                 </h3>
                                 <p className="flex mb-4 text-base font-normal text-blue-500 dark:text-blue-400">
